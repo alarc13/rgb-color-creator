@@ -1,0 +1,38 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: Impact;
+}
+section{
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+section:nth-child(1){
+    flex-direction: column;
+
+}
+.cuadro{
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    background-color: black;
+}
+p{
+    margin-top: 20px;
+
+}
+
+.componente{
+    width: 200px;
+    margin: 0 30px;
+}
+input{
+    display: block;
+    width: 100%;
+    margin-top: 10px;
+    
+}
